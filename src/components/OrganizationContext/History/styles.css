@@ -1,0 +1,56 @@
+.historyContainer {
+  width: 40.625rem;
+  height: 25rem;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  color: var(--primary-color-light);
+  cursor: pointer;
+  transition: all 0.7s linear;
+}
+
+.historyContainer p {
+  margin-top: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  height: 50px;
+  width: 800px;
+  padding: 10rem 10rem 6rem 2.5rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+}
+
+
+
+/*
+  relação de respoonsividade = 75%
+  Width Responsiva é 75% da Width Normal
+ */
+@media (max-width: 1200px) {
+  .historyContainer {
+    width: 34.22rem;
+    height: 22.5rem;
+  }
+
+  .historyContainer p {
+    font-size: 1.35rem;
+    padding: 0 7.72rem 1.725rem 1.87rem;
+  }
+}
+
+@media (max-width: 710px) {
+  .historyContainer {
+    width: 90%;
+    height: 60%;
+  }
+
+  .historyContainer p {
+    font-size: 1.2rem;
+    padding: 1rem 3.86rem 0.8rem 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .historyContainer {
+    width: 93%;
+  }
+}

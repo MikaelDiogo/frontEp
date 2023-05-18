@@ -1,0 +1,45 @@
+.navActions{
+  display: flex;
+  align-items: center;
+}
+
+.navActions a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-color-light);
+  text-align: right;
+  cursor: pointer;
+}
+
+.navActions span{
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 .6rem;
+  color: #fff;
+}
+
+.navActions a:hover{
+  color: #ff8c00;
+  transition: .2s;
+}
+
+.dividingLineActions{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 .7rem;
+  width: 1px;
+  height: 2.8rem;
+  background-color: var(--primary-color-light);
+}
+
+.awardField, .supportField{
+  display: flex;
+}
+
+@media (max-width: 1050px){
+  .navActions{
+    display: none;
+  }
+}

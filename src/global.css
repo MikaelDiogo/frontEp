@@ -1,0 +1,26 @@
+:root {
+  --primary-color-light: #FFF;
+
+  --primary-color-dark: #000;
+  --secondary-color-dark: #1E1E1E;
+
+  --primary-color-green: #00A84A;
+
+  --primary-color-gray: #485156;
+  --secondary-color-gray: #E9E9E9;
+
+  --primary-color-orange: #ff8c00;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}

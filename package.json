@@ -1,0 +1,32 @@
+{
+  "name": "frontep",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://informaticaepmm.github.io/Site-EEEP-Manoel-Mano/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.9.0",
+    "sort-by": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.9",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

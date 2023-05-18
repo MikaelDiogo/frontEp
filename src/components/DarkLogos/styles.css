@@ -1,0 +1,55 @@
+.navLogoDark{
+  display: flex;
+  align-items: center;
+}
+
+.dividingLineDarkLogos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2.1rem;
+  width: 1px;
+  height: 3.3rem;
+  background-color: var(--primary-color-green);
+}
+
+@media (max-width: 1400px) {
+  #stateLogoDark{
+    height: 4rem;
+  }
+
+  #schoolLogoDark{
+    width: 10rem;
+  }
+}
+
+@media (max-width: 900px){
+  .navLogoDark{
+    position: relative;
+    top: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navLogoDark{
+    top: 3rem;
+  }
+
+  #stateLogoDark{
+    height: 3.3rem;
+  }
+
+  #schoolLogoDark{
+    width: 8.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #stateLogoDark{
+    width: 8.5rem;
+  
+  }
+  #schoolLogoDark{
+    width: 7rem;
+  }
+}

@@ -1,0 +1,16 @@
+.arrayTexts{
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+.arrayTexts a{
+  color: var(--primary-color-gray);
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.arrayTexts a:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,140 @@
+/* todo: refazer essa estilização de forrma mais bonita */
+
+.approvedContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 26.125rem;
+  background:#dcdcdc;
+ 
+ 
+}
+
+/* todo: Fazer essa centralização do "Aprovações" sem usar gambiarra" */
+
+.approvedContainer p{
+  font-family: "OpenSans-Semibold", Helvetica, Arial, sans-serif;
+  display: flex;
+  width: auto;
+  color: #008442;
+  font-size:1.9rem;
+  font-weight: 900;
+  padding-left:26rem;
+  
+  padding-top: 1.7rem;
+  font-weight: 100;
+  letter-spacing: 0px;
+    
+}
+
+.approvedContent {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.approvedOverlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+}
+
+.studentsArea {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.studentsArea::-webkit-scrollbar {
+  width: none;
+}
+
+/* @media (max-width: 1200px) {
+  .container {
+    padding: 0 4rem;
+  }
+}
+@media (max-width: 1120px) {
+  .container {
+    padding: 0 2rem;
+  }
+} */
+
+.magazinecont{
+  background-color: #888888;
+  height: 211px;
+  width: 153px;
+    
+
+}
+
+.sixblock{
+  display: flex;
+  justify-content: center;
+  padding:50px ;
+  
+  gap: 35px;
+}
+
+@media (min-width: 1050px) {
+  .studentsArea {
+    overflow: hidden;
+    width: 80%;
+  }
+
+  .approvedContent {
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .approvedContainer button {
+    background: transparent;
+    border: 0;
+  }
+
+  .approvedContainer button svg {
+    color: var(--primary-color-light);
+  }
+
+  .approvedContainer button:disabled svg {
+    color: var(--secondary-color-gray);
+  }
+}
+
+@media (max-width: 710px) {
+  .approvedContainer {
+    height: 17rem;
+  }
+
+  .approvedContainer h1 {
+    width: 100%;
+    font-size: 1.7rem;
+  }
+
+  .studentsArea {
+    width: 100%;
+    gap: 0.5rem;
+    cursor: grab;
+    overflow: scroll;
+  }
+
+  .studentsArea:active {
+    cursor: grabbing;
+  }
+
+  .approvedContent {
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    height: 13rem;
+  }
+}

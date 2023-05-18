@@ -1,0 +1,15 @@
+.contentSchoolManagement h1 {
+  padding-left: 1rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  width: 26.5rem;
+  border-left: 0.25rem solid var(--primary-color-green);
+}
+
+.schoolManagementCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4.5rem 0;
+  gap: 4.5rem; 
+}

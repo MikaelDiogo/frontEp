@@ -1,0 +1,26 @@
+.courseArea{
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--secondary-color-gray);
+  padding: 1.5rem 12.12rem;
+  height: 16.5rem;
+}
+
+.courseArea h1{
+  color: var(--primary-color-green);
+  font-size: 1.7rem;
+}
+
+.blocksCoursesBlock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.25rem;
+}
+
+.blocksCoursesBlock a{
+  text-decoration: none;
+  color: var(--primary-color-dark);
+}

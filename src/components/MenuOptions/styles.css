@@ -1,0 +1,37 @@
+.optionsMenu{
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 3.43rem;
+  height: 2.18rem;
+  width: 12.5rem;
+  border-radius: 5px;
+
+  animation: showMenuOpt .4s;
+}
+
+.svg{
+  color: var(--primary-color-green);
+}
+
+.svg:hover{
+  color: var(--primary-color-orange);
+}
+
+#login{
+  border: 20px;
+}
+
+@keyframes showMenuOpt {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+  to {
+    opacity: 1;
+    width: 12.5rem;
+
+  }
+}

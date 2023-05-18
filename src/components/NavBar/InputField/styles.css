@@ -1,0 +1,108 @@
+.inputField{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 1.8rem;
+  font-size: 24px;
+  color: #00A84A;
+  text-align: center;
+  margin-left: 7.7rem;
+  
+
+}
+
+
+
+
+
+.inputField input{
+  display: inline;
+  outline: none;
+  padding: .3rem .5rem;
+  width: 28.125rem;
+  height: 2.5rem;
+  border: 2px solid #00A84A;
+  
+  
+}
+
+.inputField :placeholder-shown{
+  font-size: 1rem;
+}
+
+
+.nogap{
+  height: 40px;
+  align-items: center;
+  padding-left:1rem ;
+}
+
+
+p{
+  font-weight: bold;
+  
+}
+
+.inputGap .oi p{
+  
+  display: flex;
+  height: 126px;
+  width: 44px;
+  text-align:center;
+  
+  
+  
+}
+
+.inputField button{
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  background-color: #00A84A;
+  width: 3.125rem;
+  height: 2.5rem;
+  border: none;
+  
+}
+
+
+
+
+
+.inputField button:hover{
+  background-color: #D47402;
+  transition: 0.4s;
+  
+}
+
+@media (max-width: 1050px){
+  .inputField input{
+    margin-top: 1rem;
+    width: 28rem;
+    height: 2.2rem;
+  }
+
+  .inputField button{
+    margin-top: 1rem;
+    width: 2.2rem;
+    height: 2.2rem; 
+  }
+}
+
+@media (max-width: 710px){
+  .inputField input{
+    width: 23rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .inputField input{
+    width: 18rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .inputField input{
+    width: 15rem;
+  }
+}

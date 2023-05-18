@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+.StayContainer{
+    display:block;
+    height: 319px;
+    border-top: 3px solid #00853B;
+    background-color: #fff;
+    
+}
+
+.StayContainer strong{
+    font-family: "OpenSans-Semibold", Helvetica, Arial, sans-serif;
+    display: flex;
+    width: auto;
+    color: #008442;
+    font-size:1.9rem;
+    font-weight: 900;
+    padding-left:26rem;
+    padding-top: 2rem;
+    font-weight: 100;
+    letter-spacing: 0px;
+    
+}
+
+.box1{
+    font: 1.3em "OpenSans-Semibold", Helvetica, Arial, sans-serif;
+    display:inline;
+    height: 50px;
+    width: 420px;
+    background-color: #fff;
+    border-left: 3.4px solid #00A84A;
+    color: #808080;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+.box2{
+    font: 1.3em "OpenSans-Semibold", Helvetica, Arial, sans-serif;
+    display: flex;
+    height: 50px;
+    width: 420px;
+    background-color: #fff;
+    border-left: 3.4px solid #00A84A;
+    color: #808080;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+
+
+
+
+.box3{
+    font: 1.3em "OpenSans-Semibold", Helvetica, Arial, sans-serif;
+    display:flex;
+    height: 50px;
+    width: 400px;
+    background-color: #fff;
+    border-left: 3.4px solid #00A84A;
+    color: #808080;
+    align-items: center;
+    padding-left: 1rem;
+    
+    
+}
+
+.space{
+    justify-content: center;
+    display: grid;
+    
+}
+.space2{
+    justify-content: center;
+    display: grid;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.Linkclass{
+    text-decoration: none;
+    font: 1em "OpenSans-Semibold", Helvetica, Arial, sans-serif;
+    display: flex;
+    height: 50px;
+    width: 420px;
+    background-color: #fff;
+    
+    color: #808080;
+    align-items: center;
+    
+    
+}
+
+.box1:hover::after{
+    width: 100%;
+    transition: width 0.6s ease-in-out;
+}
+
+.box1:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 6px;
+    z-index: 1;
+    background-color: #00a84a;
+    content: '';
+    
+}

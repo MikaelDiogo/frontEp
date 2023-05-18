@@ -1,0 +1,60 @@
+.faqCourses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.8rem;
+  padding: 4rem 12.25rem;
+  background-color: var(--secondary-color-gray);
+}
+
+.faqTitle{
+  width: 4.5rem;
+}
+
+.faqCourses h1{
+  color: var(--primary-color-green);
+}
+
+.faqCourses h1:hover{
+  background-image: linear-gradient(to bottom, #00a84a, #4d7864, #0d5234);
+  transition: all 1s;
+  cursor: pointer;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  color: black;
+}
+
+.arrayQuestions{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.faqQuestion {
+  display: flex;
+  gap: .8rem;
+}
+
+.textsFaq h1{
+  font-weight: 800;
+  line-height: 2.3rem;
+}
+
+.textsFaq {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.textsFaq h1{
+  font-size: 1.85rem;
+}
+
+.textsFaq p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  width: 15rem;
+}

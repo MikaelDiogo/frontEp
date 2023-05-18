@@ -1,0 +1,86 @@
+.navLogos {
+  display: flex;
+  align-items: center;
+}
+
+.dividingLineLightLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2.1rem;
+  width: 1px;
+  height: 5.3rem;
+  background-color: var(--primary-color-light);
+}
+
+@media (max-width: 1200px) {
+  #state {
+    height: 7rem;
+  }
+
+  #school {
+    height: 8rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .navLogos {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 710px) {
+  #state {
+    height: 5rem;
+    width: 16rem;
+  }
+
+  #school {
+    height: 6.5rem;
+    width: 13rem;
+  }
+}
+
+@media (max-width: 540px) {
+  #state {
+    width: 13rem;
+  }
+  #school {
+    width: 11rem;
+  }
+
+  .dividingLineNav {
+    height: 4rem;
+    margin: 0 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #state {
+    width: 10.5rem;
+  }
+  #school {
+    width: 8.8rem;
+  }
+
+  .dividingLineNav {
+    height: 3rem;
+    margin: 0 1.5rem;
+  }
+
+  #stateSmall  {
+    height: 2.5rem;
+  }
+  #schoolSmall  {
+    width: 5.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  #state {
+    width: 9.2rem;
+  }
+  #school {
+    width: 7.2rem;
+  }
+}
