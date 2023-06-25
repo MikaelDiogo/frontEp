@@ -31,10 +31,14 @@
 }
 
 
-.nogap{
+.nogap {
+  width: 400px;
   height: 40px;
   align-items: center;
   padding-left:1rem ;
+}
+.nogap input{
+  width:400px;
 }
 
 
@@ -55,8 +59,9 @@ p{
 }
 
 .inputField button{
-  display: inline;
-  justify-content: center;
+  
+  display: flex;
+  justify-content:center;
   align-items: center;
   background-color: #00A84A;
   width: 3.125rem;

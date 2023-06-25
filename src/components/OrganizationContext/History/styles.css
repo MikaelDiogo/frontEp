@@ -29,6 +29,10 @@
   .historyContainer {
     width: 34.22rem;
     height: 22.5rem;
+    
+  }
+  .historyContainer p{
+    font-size: 1.5rem;
   }
 
   .historyContainer p {
@@ -53,4 +57,9 @@
   .historyContainer {
     width: 93%;
   }
+}
+@media (max-width:480px){
+  .historyContainer{
+    width: 20rem;
+    }
 }

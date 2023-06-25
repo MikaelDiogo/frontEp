@@ -16,23 +16,37 @@
 @media (max-width: 1400px) {
   #stateLogoDark{
     height: 4rem;
-  }
+  } 
 
   #schoolLogoDark{
-    width: 10rem;
+    width: max-content;
+    
   }
 }
 
 @media (max-width: 900px){
   .navLogoDark{
     position: relative;
-    top: 2rem;
+    margin-top: 1rem;
+  }
+}
+
+@media(max-width:650px){
+  .navLogoDark{
+    position: relative;
+    top: 0;
+
+  }
+  #schoolLogoDark{
+    height: 11rem;
+    width: 11em;
+
   }
 }
 
 @media (max-width: 600px) {
   .navLogoDark{
-    top: 3rem;
+    top:0;
   }
 
   #stateLogoDark{

@@ -7,8 +7,8 @@ import { InputField } from "../NavBar/InputField";
 import { NavActions } from "../NavBar/NavActions";
 import "./styles.css"
 import "../NavBar/AccessibilityField/index"
-
-
+import { Link } from "react-router-dom";
+import { Approved } from "../Approveds";
 
 
 export function SecondNav() {
@@ -19,12 +19,12 @@ export function SecondNav() {
       <div className="inputFieldC">
       <InputField  />
       </div>
-      <div  className="sorumbatico">
+      <div id="sorum" className="sorumbatico">
       
-      <a href="">PROJETO 1</a>
-      <a href="">PROJETO 2</a>
-      <a href="">PROJETO 3</a>
-      <a id="p4" href="">PROJETO 4</a>
+     <a href="">PRINCIPAL</a>
+      <a href="#StayContainer">SAIBA MAIS</a>
+      <a href="#ApprovedCont">CONTEÚDOS</a>
+      <a id="p4" href="">FILTRAGEM</a>
 
       </div>
       

@@ -28,10 +28,10 @@ export function AccessibilityField({ color }: AccessibilityFieldProps) {
      {btnOpen && (
        <div id="sorumbatico" className="sorumbatico">
       
-         <a href="">PROJETO 1</a>
-         <a href="">PROJETO 2</a>
-         <a href="">PROJETO 3</a>
-         <a id="p4" href="">PROJETO 4</a>
+         <a href="">PRINCIPAL</a>
+         <a href="#StayContainer">SAIBA MAIS</a>
+         <a href="#ApprovedCont">CONTEÚDOS</a>
+         <a id="p4" href="">FILTRAGEM</a>
    
          </div>
     
@@ -46,10 +46,8 @@ export function AccessibilityField({ color }: AccessibilityFieldProps) {
           </div>
 
           <div className="iconsAccessibility">
-            <span>A</span>
-            <span>A-</span>
-            <span>A+</span>
-            <RiContrastFill style={{ transform: 'rotate(30deg)' }} />
+            
+            <RiContrastFill/>
           </div>
         </div>
         :
@@ -61,10 +59,7 @@ export function AccessibilityField({ color }: AccessibilityFieldProps) {
             </div>
 
             <div className="iconsAccessibility">
-              <span>A</span>
-              <span>A-</span>
-              <span>A+</span>
-              <RiContrastFill style={{ transform: 'rotate(30deg)' }} />
+              <RiContrastFill style={{ transform: 'rotate(45deg)' }} />
             </div>
           </div>
         </div>

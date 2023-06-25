@@ -1,24 +1,56 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { DarkLogos } from "../DarkLogos";
-import { AccessibilityField } from "../NavBar/AccessibilityField";
-import { InputField } from "../NavBar/InputField";
 
-import './styles.css';
+import { InputField } from "../NavBar/InputField";
+import { RiContrastFill } from "react-icons/ri";
+
+import "./styles.css";
 
 export function NavNews() {
+ 
   return (
     <div className="navNews">
-      <AccessibilityField color="green" />
-      <DarkLogos size="sizeOne" />
-      <div className='inputOptions'>
-        <InputField model="navNews" />
-        <div className="linksNews">
-          <Link className="lines" to='/curso/informatica'>Informática</Link>
-          <Link className="lines" to='/curso/enfermagem'>Enfermagem</Link>
-          <Link className="lines" to='/curso/comercio'>Comércio</Link>
-          <Link id="adm" to='/curso/administracao'>Administração</Link>
-        </div>
-      </div>
+
+<div className="accessibilityField1">
+         
+         
+       <div className="lineGreenDiv" style={{ background: 'linear-gradient(90deg, #204D37 0%, #00853B 40%)', width: '100%', height: '2.2rem', position: 'absolute', top: '0',right: '0',  }}>
+         <div className="accessibilityField2">
+           
+           <div className='identity'>
+             <span>EEEP MANOEL MANO - CRATEÚS</span>
+           </div>
+
+           <div className="iconsAccessibility">
+             <RiContrastFill />
+           </div>
+         </div>
+       </div>
+       </div>
+
+      
+      <DarkLogos  />
+  {/*     <div className="inputOptions">
+        
+
+     
+          <div className="linksNews">
+            <Link className="lines" to="">
+              PRINCIPAL
+            </Link>
+            <Link className="lines" to="">
+              SAIBA MAIS
+            </Link>
+            <Link className="lines" to="">
+              CONTEÚDOS
+            </Link>
+            <Link id="adm" to="">
+              FILTRAGEM
+            </Link>
+          </div>
+        
+      </div> */}
     </div>
-  )
+  );
 }

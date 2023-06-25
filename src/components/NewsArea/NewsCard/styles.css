@@ -1,54 +1,107 @@
 .newsCard {
   display: flex;
   width: 100%;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-  padding: 1.8rem 0;
+  border-bottom: 2px solid var(--color_opacity_dark_light);
+  padding: 1.5rem 0rem;
   text-decoration: none;
-  color: black;
+  color: var(--color_letters);
+  border-bottom: 2px solid rgba(24, 24, 24, 0.37);
+  margin-top: 2rem;
+  justify-content: start;
+
 }
 
 .newsCardTitle {
- 
+  display: flex;
   align-items: center;
-  height:70px;
+  height: 70%;
   border-left: 4px solid var(--primary-color-green);
   padding-right: 2.5rem;
+  
+  
+
 }
 
 .newsCardTitle h2 {
-  margin-top: auto;
   font-size: var(--font-sub-title);
-  justify-content: center;
   font-weight: 600;
-  padding-left: 0.5rem;
+  padding-left: .5rem;
   font-size: 1.2rem;
-  
+  text-align: justify;
 }
 
 .newsCard p {
+  display: flex;
+  text-align:justify;
   width: 70%;
   font-size: 1rem;
-  font-weight:400;
+  font-weight: 200;
+
+
 }
 
 @media (max-width: 1400px) {
   /*  */
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   /*  */
+  .newsCard p{
+    font-size: .93rem;
+    
+  }
+  .newsCard h2{
+    font-size: 1.2rem;
+  }
+  .newsCard{
+    padding: 2rem 0;
+  }
 }
 
-@media (max-width: 820px) {
+@media(max-width:1040px){
+  .newsCard{
+    padding: 1.5rem 0 ;
+  }
+  .newsCard p{
+    font-size: .95rem;
+    text-align: start;
+    
+  }
+  .newsCard h2{
+    width: 70%;
+  }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 930px) {
+    .newsCard{
+      padding: 1rem 0; 
+    
+    }
+    .newsCard h2{
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    .newsCard p {
+      display: flex;
+      width: auto;
+    }
+}
+
+@media (max-width: 750px) {
   .newsCard {
     flex-direction: column;
     gap: 1rem;
   }
 
   .newsCard p {
+    width: 100%;
+    height:auto
+  }
+
+  .newsCard h2{
+    text-align:start;
+    font-size: 1.1rem;
+    height: auto;
     width: 100%;
   }
 }

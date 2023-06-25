@@ -13,7 +13,7 @@ export const NewsCard = ({ title, content, id }: NewsCardProps) => {
       <div className="newsCardTitle">
         <h2>{title}</h2>
       </div>
-      <p>{content.substring(0, 330)}[...]</p>
+      <p className="noticeP">{content.substring(0, 210)}[...]</p>
     </Link>
   );
 };

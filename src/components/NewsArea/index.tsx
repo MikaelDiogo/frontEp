@@ -4,11 +4,13 @@ import { NewsCard } from "./NewsCard";
 
 import "./styles.css";
 import { useState } from "react";
+import { useFooter } from "../../context/linkFooterContext";
 
 export const NewsArea = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const ref = useFooter();
   return (
-    <div id="news" className="newsArea">
+    <div id="news" className="newsArea" ref={ref}>
       <h1>Todas as notícias</h1>
       <div className="newsCardArea">
         {news.slice(0, isOpen ? news.length : 4).map((news) => (

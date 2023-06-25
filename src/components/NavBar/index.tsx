@@ -12,7 +12,7 @@ export function NavBar(){
     <div className="container" id="#navBarHome">
       <AccessibilityField color="transparentWhite" />
       <div className="navBar">
-        <LightLogos size="normalLogo" schoolStyle={undefined} stateStyle={undefined}/>
+        <LightLogos /> 
       <div className="actions">
         
         <NavActions />

@@ -1,10 +1,10 @@
 import { DarkLogos } from '../DarkLogos'
 import './style.css'
-  
-export function LoginHeader(){
+
+export function FilterHeader(){
   return(
     <div className="loginHeader">
-      <DarkLogos size="sizeOne" />
+      <DarkLogos  />
   
       <div className='newNav'>
       
@@ -16,7 +16,7 @@ export function LoginHeader(){
 
       </div>
       
-    </div>
+    </div> 
     </div>
   )
 }

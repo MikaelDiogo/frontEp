@@ -5,7 +5,7 @@ import { Approved } from "../components/Approveds";
 import { Footer } from "../components/Footer";
 import { CourseArea } from "../components/CourseArea";
 import { StayIn } from "../components/StayIn";
-import { Login } from "./Login";
+import { Filter } from "./Filter";
 import { NewsArea } from "../components/NewsArea";
 
 

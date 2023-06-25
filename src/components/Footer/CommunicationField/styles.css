@@ -1,9 +1,5 @@
 .communicationField{
-  background-color: var(--secondary-color-gray);
-  color: var(--text-color-gray);
-  width: 30rem;
-  height: 23rem;
-  padding: 1.5rem;
+  display: none;
 }
 
 .communicationField h2{
@@ -107,94 +103,6 @@
 
 @media (max-width: 830px){
   .communicationField{
-    width: 20rem;
-    height: 18.5rem;
-    padding: .8rem;
-  }
-
-  .communicationField h2{
-    font-size: .8rem;
-    margin-bottom: .8rem;
-  }
-  
-  .dividingLineFooter{
-    padding: .3rem;
-    margin-bottom: 1rem;
-  }
-
-  .communication a{
-    line-height: 1rem;
-    column-gap: 0.2rem;
-  }
-
-  .communication a svg{
-    width: 2rem;
-  }
-
-  #location svg{
-    width: 2.3rem;
-  }
-}
-
-@media (max-width: 785px) {
-  .communicationField{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    padding: 0 3rem;
-  }
-
-  .dividingLineFooter{
-    width: 25rem;
-  }
-
-  .communication{
-    grid-template-columns: 12.5rem 10rem;
-    column-gap: 3rem;
-  }
-
-  .communication a span{
-    font-size: 1rem;
-  }
-
-  .communicationField h2{
-    font-size: 1rem;
-  }
-
-  .chanels{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #location{
-    width: 15rem;
-  }
-}
-
-@media (max-width: 510px) {
-  .communication{
-    grid-template-columns: 12rem 8rem;
-    column-gap: 0;
-  }
-
-  #location{
-    width: 11rem;
-  }
-}
-
-@media (max-width: 360px) {
-  .communication{
-    grid-template-columns: 11rem 7rem ;
-  }
-
-  #location{
-    width: 9rem;
-  }
-
-  .communication a span{
-    font-size: .8rem;
+    display:none;
   }
 }

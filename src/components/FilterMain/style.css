@@ -1,0 +1,630 @@
+.filterMain {
+  display: flex;
+  padding-right: 7rem;
+  padding-left:7rem;
+  
+}
+ .RightFilter h1{
+  display: none;
+}
+
+.funcFilt{
+  margin-top: 5rem;
+  
+}
+.functionFilter{
+  width:1300px;
+  display: none;
+  height: max-content;
+  
+  
+
+  padding-left: 7rem;
+  font-size: 1rem;
+  
+  color: #000;
+  font-weight: 600;  
+  text-transform:uppercase;
+  
+}
+.filterServs1{
+  margin-left: 7rem;
+  margin-top: 1rem;
+  width: max-content;
+  height: max-content;
+  font-size: 1.3rem;
+  align-items: center;
+  color: #00853b;
+  border-left: 2px solid #00853b;
+  align-items: center;
+  text-align: justify;
+}
+.filterServs1 p{
+  width: max-content;
+  height: max-content;
+  padding-left: 1rem;
+  
+}
+.filterServs1 h4{
+  width: 1150px;
+  padding-left: 1rem;
+  
+}
+.filterServs2{
+  margin-left: 7rem;
+  margin-top: 1rem;
+  width: max-content;
+  height: max-content;
+  font-size: 1.3rem;
+  align-items: center;
+  color: #00853b;
+  
+  align-items: center;
+}
+.filterServs2 p{
+  
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  font-size: 1rem;
+  text-align: justify;
+  width: 800px;
+  color: #000;
+  font-weight: 600;  
+  text-transform:uppercase;
+}
+
+.PsFilter{
+  font-size: 1rem;
+  color: black;
+  font-weight: 200;
+  width: min-content;
+  
+}
+.PsFilter h4{
+  width:min-content;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #1f4e37 0%, #00853b 50%, #00853b 100%);
+  width: 25rem;
+  height: 5.5rem;
+  border-radius: 0.62rem;
+}
+
+.iframef{
+  margin-top: 2rem;
+  display: block;
+  border: none;
+  width: 650px;
+  height: 457px;
+  padding-right:2rem ;
+  border-right: 2px solid #00853b;
+
+
+}
+
+.RightFilter{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  margin-top: 9.6rem;
+  justify-content: center;
+  
+
+}
+
+.RightFilterp input{
+  align-items: center;
+}
+
+/* .ServicesFilter{
+  display: flex;
+  flex-direction: row;
+} */
+.ServicesFilter {
+  
+  display: flex;
+  flex-direction:row;
+  width: 400px;
+  margin-top: 1rem;
+  
+  gap: .8rem;
+   
+}
+.whatServ2{
+  display: none;
+}
+
+.ServicesFilter p{
+  font-weight: 200;
+}
+.ServicesFilter2{
+  display:flex;
+  flex-direction: row;
+  width: 400px;
+  margin-top: .2rem;
+
+  gap: .8rem;
+  
+}
+
+.ServicesFilter2 p{
+  font-weight: 200;
+  
+}
+
+
+.FilterGreen{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.8rem;
+  height: 3rem;
+  border-left: 2px solid #00853b ;
+}
+
+.FilterGreen p{
+  color: #00853b;
+}
+.FilterSpace{
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+
+#checkBox {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: gray;
+  
+}
+#checkBox2 {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: gray;
+  
+}
+#checkBox3 {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: gray;
+  
+}
+#checkBox4 {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: gray;
+  
+}
+
+.servdisp{
+  font-size: 20px;
+  margin-top: 1rem;
+  
+}
+
+.units{
+  display: flex;
+  height:180px;
+  width: 240px;
+ 
+  overflow: scroll;
+  flex-direction: column;
+  
+  
+}
+.units button{
+  cursor: pointer;
+  
+}
+
+.units00{
+  display: flex;
+  height: 45px;
+  background-color: #fff;
+  border-left:3px solid #00853b;
+  flex-direction: column;
+  
+    
+}
+.units00 p{
+  margin-left: 1rem;
+  display: flex;
+  font-weight: 200;
+  border-bottom: 1px solid #7a7a7a;
+  width: 220px;
+  
+
+}
+.units button{
+  background-color: #fff;
+  margin-top: 0.7rem;
+  border: none;
+  
+  
+
+  
+
+}
+
+.lineFilter{
+  display: flex;
+  margin-top: 1rem;
+  border: 1px solid gray;
+  width: 200px;
+  margin-left: 1rem;
+}
+
+.filterActions{
+  gap: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.filterActions .clean{
+  border: 1.5px solid #00853b;
+  color: #00853b;
+  background-color: #fff;
+  width: 90px;
+  height: 32px;
+  
+}
+
+.filterActions .clean:hover{
+  background-color: #00853b;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.units00 h4{
+  display: flex;
+  font-size: 12px;
+  margin-left: 1rem;
+
+  
+}
+
+#PostoS{
+  display: none;
+}
+#PostoS2{
+  display: none;
+}
+#PostoS3{
+  display: none;
+}
+#PostoS4{
+  display: none;
+}
+#PostoS.active {
+  display: flex;
+}
+#PostoS2.active{
+  display: flex;
+}
+#PostoS3.active{
+  display: flex;
+}
+#PostoS4.active{
+  display: flex;
+}
+
+#Hospital {
+  display: none;
+
+}
+#Hospital2{
+  display: none;
+}
+#Hospital3{
+  display: none;
+}
+
+#Hospital.active{
+  display: flex;
+}
+#Hospital2.active{
+  display: flex;
+}
+#Hospital3.active{
+  display: flex;
+}
+#ClinicaM{
+  display: none;
+}
+#ClinicaM2{
+  display: none;
+}
+#ClinicaM.active{
+  display: flex;
+}
+#ClinicaM2.active{
+  display: flex;
+}
+
+@media(max-width:1130px){
+    .functionFilter{
+      height: max-content;
+      width: 800px;
+      text-align: justify;
+
+    }
+    .filterServs1 h4{
+      width: 800px;
+    }
+
+  .filterMain{
+    padding: 0;
+    justify-content: center;
+  }
+    .RightFilter h2{
+      font-size: 1.2rem;
+    }
+    .FilterGreen h2{
+      font-size: 1.3rem;
+    }
+    .iframef{
+      width: 560px;
+    }
+    .whatServ{
+      width: 300px;
+    }
+    .ServicesFilter{
+      display: flex;
+      width: 300px;
+      text-align:left;
+      gap: .7rem;
+    }
+    .ServicesFilter p {
+      width: 140px;
+    }
+    .ServicesFilter2{
+      display: flex;
+      width: 300px;
+      text-align: left;
+      gap: .7rem;
+    
+    }
+    .ServicesFilter2 p{
+      width: 140px;
+    }
+}
+
+@media(max-width:980px){
+
+  .whatServ{
+    display: none;
+  }
+  .whatServ2{
+    display: flex;
+    width: 361px;
+        
+  }
+  .RightFilter h1{
+      display: flex;
+      font-size: 1.2rem;
+      width: 361.44px;
+  }
+
+  .serviceFilterGlobal{
+    border-right: 3px solid #00853b;
+    margin-top: 1rem;
+    
+  }
+  .FilterGap{
+    gap: 2rem;
+  }
+  
+
+  .filterMain{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .iframef{
+    display: flex;
+    width: 740px;
+    border: none;
+    padding: 0;
+    
+  }
+  .RightFilter{
+    padding: 0;
+    margin-top: 2rem;
+  }
+  .whatServ{
+    width: max-content;
+    
+  }
+
+  .RightFilter h2{
+  
+    font-size: 1.2rem;
+    
+  }
+  .ServicesFilter{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    margin-top: 1.3rem;
+  }
+  .ServicesFilter2{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    
+  }
+  .servdisp{
+    display: flex;
+    width: max-content;
+    
+  }
+  .ubsCenter{
+    width: max-content;
+    align-self: center;    
+  }
+  .servicesFilterGlobal{
+    display: flex;
+    width: max-content;
+    align-self: self-start;
+  
+  }
+  .FilterGap{
+    display: flex;
+  }
+}
+
+@media(max-width:840px){
+    .filterServs1 h4{
+      width: 600px;
+      align-self: center;
+      justify-content: center;
+    }
+    .filterServs2 p{
+      align-self: center;
+      width: 600px;
+      justify-content: center;
+    }
+    .filterServs1{
+      align-self: center;
+      align-items: center;
+      justify-content: center;
+    }
+} 
+
+@media(max-width:740px){
+    .functionFilter{
+      width: 570px;
+    }
+    .filterServs1 h4{
+      width: 450px;
+    }
+    .filterServs2 p{
+      height: max-content;
+      width: 450px;
+      text-align: justify;
+    }
+
+      .iframef{
+        width: 500px;
+        height:340px;
+      }
+
+      .FilterGap{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+      }
+      .serviceFilterGlobal{
+        border: 0;
+      }
+      .RightFilter h1{
+        width: max-content;
+      }
+      .ubsCenter{
+        display:flex;
+        flex-direction: column;
+        align-self: flex-start;
+      }
+}
+
+@media(max-width:550px){
+  .functionFilter{
+    display: none;
+  }
+  .filterServs2{
+    margin-left: 6rem;
+  }
+  .filterServs1{
+    margin-left: 6rem;
+  }
+  .filterServs1 h4{
+    width: 290px;
+  }
+  .filterServs2 p{
+    height: max-content;
+    width:290px;
+    text-align: justify;
+  }
+  .iframef{
+    width: 350px;
+  }
+  .FilterGreen {
+    width: 350px;
+    height: max-content;
+  }
+  .FilterGreen p{
+    height: max-content;
+  }
+
+  .FilterGap{
+    width: 350px;
+  }
+  .FilterGap h1{
+    width:350px;
+  }
+}
+
+
+@media(max-width:470px){
+  .filterServs1 h4{
+    width: 250px;
+    
+  }
+  .filterServs2 {
+    width: 300px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3rem;
+  };
+    
+  
+  
+}
+
+@media(max-width:400px){
+  .filterFaq{
+    width: max-content;
+    
+  }
+  .filterServs1{
+    margin: 1rem 4rem;
+  }
+}
+@media(max-width:380px){
+  .filterFaq{
+    width: max-content;
+
+    
+  }
+  .filterServs1{
+    margin: 1rem 2.5rem;
+  }
+  .filterServs2{
+    margin: 1rem 2.5rem;
+  }
+  
+}
+@media(max-width:360px){
+  .iframef{
+    width: 330px;
+  }
+}
+

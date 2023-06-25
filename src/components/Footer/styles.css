@@ -2,8 +2,10 @@
   margin-top: 5rem;
   display: flex;
   justify-content: center;
-  padding: 4.75rem 0;
+  padding: 2.75rem 0;
   border-top: 2px solid #00853B;
+  height: 10rem;
+  align-items: center;
 }
 
 .groupContent{
@@ -11,64 +13,111 @@
 }
 
 .imgFooter {
-  display: flex;
+  display:flex;
+  
+  
 }
 
 .imgFooter img {
-  height: 10rem;
-  
+   align-items: center;
 }
 
 @media (max-width: 1500px) {
   .imgFooter img {
-    padding-left: 10rem;
-    height: 13rem;
+    
+    height: 7rem;
   }
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1320px) {
   .imgFooter img {
-    padding-left: 20rem;
-    height: 10rem;
+    
+    height: 7em;
   }
 }
+@media(max-width:1200px){
+.footer{
+  align-items: center;
+  justify-content: center;
+}
 
-@media (max-width: 830px) {
   .imgFooter img {
-    height: 8.5rem;
-  }
-}
-
-@media (max-width: 785px) {
-  .footer{
-    display: flex;
-    flex-direction: column;
+    height: 7rem;
     justify-content: center;
-    align-items: center;
-    padding: 2.75rem 0 0 0 ;
-  }
-
-  .accessNetworks{
-    width: 100%;
-  }
-
-  .imgFooter img{
-    padding: 0;
-  }
+ }
+  
 
 }
+@media(max-width:1130px){
+    .groupContent{
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .imgFooter{
+      margin-left: 22rem;
+    }
+ }
 
-@media (max-width: 450px) {
+
+
+@media (max-width: 1070px) {
+      .footer{
+        height: 30rem;
+        padding: 0;
+      
+      }
+      
+
+        .contentCols{
+          display: none;
+        }
+      .groupContent{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width:max-content ;
+      }
+      .imgFooter img{
+        display: flex;
+        height: 10rem;
+        
+
+      }
+        .imgFooter{
+          margin: 0 0 ;
+        }
+      
+        .copyright {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 0;
+        }
+
+        .localFooter p{
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+        }
+        .sitemain{
+          justify-content: center;
+        }
+        .localFooter {
+          display: flex;
+          flex-direction: column;
+          
+        }
+
+        
+}
+@media(max-width:600px){
   .groupContent{
-    flex-direction: column;
-    gap: 3.8rem;
-  }
-
-  .imgFooter{
-    justify-content: center;
-  }
-
-  .imgFooter img{
-    height: 10rem;
+    padding-bottom: 2rem 0 ;
+    height: 17rem;
   }
 }

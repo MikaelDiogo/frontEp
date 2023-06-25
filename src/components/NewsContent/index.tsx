@@ -1,6 +1,4 @@
-import React from "react";
 import "./styles.css";
-import { BackBar } from "../BackBar";
 import { INews } from "../../@types/INews";
 
 export const NewsContent = ({
@@ -17,14 +15,23 @@ export const NewsContent = ({
         <div className="newsTextArea">
           <h1>{title}</h1>
         </div>
-        <p>{`${date.getDay()} DE ${date
+        <p>{`${date.getDate()} DE ${date
           .toLocaleDateString("pt-BR", { month: "long" })
           .toUpperCase()} DE ${date.getFullYear()}`}</p>
       </div>
       <div className="newsImage">
         <img src={image} />
       </div>
-      <p>{content}</p>
+
+      {content?.includes("\n") ? (
+        content?.split("\n").map((line, index) => (
+          <p style={index == 1 ? { paddingTop: "1rem" } : undefined}>
+            {line} <br />
+          </p>
+        ))
+      ) : (
+        <p>{content}</p>
+      )}
     </main>
   );
 };

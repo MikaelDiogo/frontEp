@@ -11,7 +11,7 @@ export const Managers = ({ manager, onClick }: ManagersProps) => {
       case "schoolManagement":
         return <p className="firstmanager">Conheça nosso sistema de filtragem.</p>;
       case "aboutUs":
-        return <p className="secondmanager">Movimento Nacional pela Vacinação tem foco prioritário na retomada nas altas coberturas vacinais do Brasil.</p>;
+        return <p className="secondmanager">Prefeito de Novo Oriente é eleito presidente do Consórcio de Saúde dos Sertões de Crateús.</p>;
     }
   };
 

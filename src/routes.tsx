@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { Login } from "./pages/Login";
+import { Filter } from "./pages/Filter";
 import { News } from "./pages/News";
-import { SchoolManagement } from "./pages/SchoolManagement";
-import { Course } from "./pages/Course";
-import { SchoolPhotos } from "./components/SchoolPhotos";
+import { NewsArea } from "./components/NewsArea";
+import { Approved } from "./components/Approveds";
+
+
 
 export const router = createBrowserRouter([
   {
@@ -12,23 +13,19 @@ export const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/login",
-    element: <Login />,
+    path: "/filter",
+    element: <Filter />,
   },
+  
   {
-    path: "/news",
+      path: "/areaDeNoticias",
+      element: <NewsArea />
+  },
+  
+  {
+    path: "/news/:newsId",
     element: <News />,
   },
-  {
-    path: "/manager",
-    element: <SchoolManagement />,
-  },
-  {
-    path: "/curso/:curso",
-    element: <Course />,
-  },
-  {
-    path: "/curso/imagensEscola",
-    element: <SchoolPhotos />,
-  },
+
+  
 ]);

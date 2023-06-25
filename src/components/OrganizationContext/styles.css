@@ -5,6 +5,7 @@
   gap: 4.9rem;
   height: 35rem;
   width: 100%;
+  margin-top: 4rem;
 }
 
 .managersArea {
@@ -20,7 +21,50 @@
   }
 }
 
+@media(max-width:980px){
+  .historyContainer{
+    width: 45rem;
+    height: 90rem;
+    
+  }
+  .organizationContainer{
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    overflow-y: hidden;
+    
+  }
+  .managersArea {
+    width: 90%;
+    height: 30%;
+  }
+
+  .managersArea{
+    width: 45rem;
+    height: 60rem;
+   
+  }
+
+  
+}
+
+@media(max-width:800px){
+  .managersArea{
+    width: 40rem;
+    height: 20rem;
+  }
+  .historyContainer{
+    width: 40rem;
+  }
+}
+
 @media (max-width: 710px) {
+.historyContainer{
+  width: 35rem;
+}
+
   .organizationContainer {
     flex-direction: column;
     align-items: center;
@@ -30,15 +74,78 @@
   }
 
   .managersArea {
-    width: 90%;
-    height: 30%;
+    width: 35rem;
+   
+    height: 20rem;
+    
   }
+}
+@media(max-width:620px){
+  .managersArea{
+    width: 30rem;
+    height: 10rem;
+    
+    
+  } 
+  .historyContainer p{
+    padding-bottom: 3rem;
+  }
+  
+  .historyContainer{
+    width: 30rem;
+  } 
 }
 
 
-@media (max-width: 540px) {
+@media (max-width: 580px) {
 .managersArea{
-  width: 95%;
-  height: 32%;
+  width: 30rem;
+  height: 10rem;
+  
+  
 } 
+.historyContainer p{
+  padding-bottom: 3rem;
+}
+
+.historyContainer{
+  width: 30rem;
+}
+
+
+}
+@media (max-width:520px){
+  .historyContainer{
+    width: 24rem;
+    height: 24rem;
+  }
+  .managersArea{
+    width: 24rem;
+  }
+  .historyContainer p{
+    padding-bottom: 5rem;
+  }
+}
+@media (max-width:480px){
+  .historyContainer{
+    width: 22rem;
+    height: 22rem;
+  }
+  .managersArea{
+    width: 22rem;
+    padding: 0rem 0rem 12rem ;
+  }
+  .historyContainer p{
+    padding-bottom: 5rem;
+  }
+}
+@media(max-width:390px){
+  .historyContainer{
+    width: 18rem;
+    height: 18rem;
+  }
+  .managersArea{
+    width: 18rem;
+  }
+  
 }

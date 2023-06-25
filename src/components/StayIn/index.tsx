@@ -1,20 +1,18 @@
 
 import '../StayIn/styles.css'
 import { Link } from 'react-router-dom'
-import { Login } from '../../pages/Login'
-import { LoginHeader } from '../LoginHeader'
 
-export function StayIn(){
+export function StayIn (){
     return(
-        <div className="StayContainer">
-            <strong>Fique por dentro</strong>
+        <div id='StayContainer' className="StayContainer">
+
+
+            <h1 className='StayH'>Saiba Mais</h1>
             <div className='space'>
-            <div className="box1">{ <Link className='Linkclass' to={'/login'}>Filtragem</Link> }</div>
-            </div>
-            <div className='space2'>
-            <div className="box2">Redes de Saúde em Crateús</div>
-            <div className='box3'>Redes de Saúde em Crateús</div>
-            
+            <h2 className='Stay2'>Saiba Mais</h2>
+                <div className='btnLinks'><Link className='btnLink' to={'./filter'}>Filtragem</Link></div>
+                <div className='btnLinks'><Link className='btnLink' to={'./filter'}>Redes de Saúde</Link></div>
+               
             </div>
            
             
