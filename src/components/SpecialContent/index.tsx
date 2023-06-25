@@ -7,7 +7,7 @@ import ImgEnf6 from "../../assets/imgs/80.png"
 
 import "./styles.css";
 
-export const Approved = () => {
+export const SpecialContent = () => {
   return (
     <div id="ApprovedCont" className="approvedContainer">
       <p className="ContSpecial">Conteúdos Especiais</p>
