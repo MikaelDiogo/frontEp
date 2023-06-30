@@ -4,6 +4,7 @@ const Notices = mongoose.model("Notices", {
     name: String,
     img: String,
     text: String
+    //was changed
 })
 
 
