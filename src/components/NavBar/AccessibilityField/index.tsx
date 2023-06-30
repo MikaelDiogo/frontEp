@@ -1,8 +1,8 @@
 import { RiContrastFill } from 'react-icons/ri'
 import { InputField } from '../InputField';
-import '../AccessibilityField'
+import '.'
 import './styles.css';
-import "../../NavBar/AccessibilityField/toggleMenu"
+import "./toggleMenu"
 import { useState } from 'react';
 import{BiMenu} from "react-icons/bi";
 

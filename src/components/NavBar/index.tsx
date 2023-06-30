@@ -4,7 +4,7 @@ import { NavActions } from './NavActions';
 
 
 import './styles.css'
-import '../NavBar/AccessibilityField'
+import './AccessibilityField'
 
 
 export function NavBar(){

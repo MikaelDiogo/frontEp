@@ -1,4 +1,4 @@
-import { INews } from "./../@types/INews";
+import { INews } from "../@types/INews";
 import { useCallback, useState } from "react";
 import { NewsService } from "../services/news.service";
 

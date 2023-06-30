@@ -1,9 +1,9 @@
 import { LightLogos } from "../LightLogos";
 
 import "./style.css";
-import "../FilterMain/FilterF"
+import "./FilterF"
 
-import { changeMap, changeMap10, changeMap11, changeMap12, changeMap15, changeMap16, changeMap2, changeMap3, changeMap4, changeMap5, changeMap6, changeMap7, changeMap8, changeMap9, CheckTrueC, CheckTrueH, CheckTrueLab, CheckTruePS, cleanFilter } from "../FilterMain/FilterF";
+import { changeMap, changeMap10, changeMap11, changeMap12, changeMap15, changeMap16, changeMap2, changeMap3, changeMap4, changeMap5, changeMap6, changeMap7, changeMap8, changeMap9, CheckTrueC, CheckTrueH, CheckTrueLab, CheckTruePS, cleanFilter } from "./FilterF";
 import { Channel } from "diagnostics_channel";
 
 export function FilterMain() {
