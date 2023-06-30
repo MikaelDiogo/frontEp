@@ -23,26 +23,7 @@ export function FilterMain() {
             <h4 className="PsFilter">Os principais serviços oferecidos pelas UBS são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.</h4>
           </div>
           <div className="filterServs1"><p>Hospitais</p> 
-            <h4 className="PsFilter">Os hospitais prestam uma ampla variedade de serviços relacionados à saúde. Alguns dos serviços mais comuns oferecidos pelos hospitais incluem:
-
-Atendimento de emergência: Os hospitais geralmente têm departamentos de emergência que estão abertos 24 horas por dia para tratar casos urgentes e graves.
-
-Internação hospitalar: Os hospitais fornecem instalações para a internação de pacientes que precisam de cuidados médicos intensivos ou cirúrgicos.
-
-Cirurgias: Os hospitais realizam uma variedade de procedimentos cirúrgicos, desde cirurgias de rotina até cirurgias complexas e especializadas.
-
-Consultas médicas: Os hospitais têm médicos e especialistas em diferentes áreas que oferecem consultas para diagnóstico, tratamento e acompanhamento de pacientes.
-
-Exames diagnósticos: Os hospitais geralmente possuem equipamentos e laboratórios para realizar uma variedade de exames diagnósticos, como exames de sangue, radiografias, ressonâncias magnéticas, tomografias computadorizadas, ultrassonografias, entre outros.
-
-Tratamentos especializados: Os hospitais podem oferecer tratamentos especializados em áreas como oncologia, cardiologia, neurologia, ortopedia, ginecologia, entre outras.
-
-Reabilitação: Muitos hospitais possuem serviços de reabilitação, como fisioterapia, terapia ocupacional e fonoaudiologia, para ajudar pacientes a se recuperarem após lesões ou doenças.
-
-Cuidados paliativos: Alguns hospitais têm equipes especializadas em cuidados paliativos, fornecendo suporte e conforto a pacientes em estágio terminal e seus familiares.
-
-Saúde mental: Alguns hospitais possuem unidades de saúde mental que oferecem tratamento e suporte a pacientes com transtornos mentais.
-
+            <h4 className="PsFilter">
 Educação e pesquisa: Muitos hospitais também desempenham um papel importante na educação médica e na realização de pesquisas clínicas.</h4>
           
 </div> <div className="filterServs1"><p>Laboratórios</p> 
