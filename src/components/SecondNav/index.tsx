@@ -8,7 +8,7 @@ import { NavActions } from "../NavBar/NavActions";
 import "./styles.css"
 import "../NavBar/AccessibilityField/index"
 import { Link } from "react-router-dom";
-import { Approved } from "../Approveds";
+/* import { Approved } from "../Approveds"; */
 
 
 export function SecondNav() {

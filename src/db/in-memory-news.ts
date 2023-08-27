@@ -1,3 +1,6 @@
+
+
+
 import { INews } from "../@types/INews";
 import OrienteNotice from '../assets/NovoOriente.png'
 import OrienteNotice2 from '../assets/NovoOriente2.png'

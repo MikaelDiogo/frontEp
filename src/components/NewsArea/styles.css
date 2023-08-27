@@ -1,6 +1,7 @@
 .newsArea {
   padding: 2rem 10rem;
   background-color: var(--color_background);
+  margin-bottom: 5rem;
 }
 .newsArea h1 {
   font-size: 1.7rem;

@@ -2,7 +2,7 @@ import { LightLogos } from "../LightLogos";
 
 import "./style.css";
 import "./FilterF"
-
+import Descript from "../DescriptionUbs";
 import { changeMap, changeMap10, changeMap11, changeMap12, changeMap15, changeMap16, changeMap2, changeMap3, changeMap4, changeMap5, changeMap6, changeMap7, changeMap8, changeMap9, CheckTrueC, CheckTrueH, CheckTrueLab, CheckTruePS, cleanFilter } from "./FilterF";
 import { Channel } from "diagnostics_channel";
 
@@ -12,48 +12,8 @@ export function FilterMain() {
 
   return (
 
-      <div className="filterFaq">
-        <div className="funcFilt"></div>
-        <div className="filterServs2">
-              <p>O sistema de filtragem pois pensado em você que precisa de orientação quanto a localização das Unidade Básicas de Saúde em Crateús e seus respectivos serviços. Abaixo temos uma listagem dos serviços prestados pelos principais serviços de saúde</p>
-            </div>
-        <p className="functionFilter">O sistema de filtragem pois pensado em você que precisa de orientação quanto a localização das Unidade Básicas de Saúde em Crateús e seus respectivos serviços. Abaixo temos uma listagem dos serviços prestados pelos principais serviços de saúde</p>
-          <div className="filterServs1"><p>Postos de Saúde</p> 
-          
-            <h4 className="PsFilter">Os principais serviços oferecidos pelas UBS são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.</h4>
-          </div>
-          <div className="filterServs1"><p>Hospitais</p> 
-            <h4 className="PsFilter">
-Educação e pesquisa: Muitos hospitais também desempenham um papel importante na educação médica e na realização de pesquisas clínicas.</h4>
-          
-</div> <div className="filterServs1"><p>Laboratórios</p> 
-            <h4 className="PsFilter">Os laboratórios desempenham um papel crucial na área da saúde, fornecendo uma variedade de serviços de diagnóstico, pesquisa e monitoramento. Alguns dos serviços comuns prestados pelos laboratórios são:
 
-Análises clínicas: Os laboratórios clínicos realizam uma ampla gama de testes laboratoriais em amostras biológicas, como sangue, urina, fezes e fluidos corporais. Esses testes podem auxiliar no diagnóstico e monitoramento de doenças, bem como na avaliação de parâmetros de saúde.
-
-Patologia: Laboratórios de patologia examinam amostras de tecidos e células para ajudar no diagnóstico de doenças, como câncer. Isso pode incluir exames histopatológicos, citologia e testes genéticos.
-
-Microbiologia: Laboratórios de microbiologia analisam amostras para identificar e caracterizar microorganismos, como bactérias, vírus, fungos e parasitas. Esses testes ajudam no diagnóstico de infecções e na seleção de tratamentos apropriados.
-
-Biologia molecular: Os laboratórios de biologia molecular realizam testes que investigam o material genético (DNA e RNA) para detectar doenças genéticas, identificar agentes infecciosos e auxiliar no desenvolvimento de terapias direcionadas.
-
-Toxicologia: Laboratórios de toxicologia analisam amostras biológicas para identificar e quantificar substâncias tóxicas, como drogas ilícitas, medicamentos em excesso ou venenos, que possam estar presentes no organismo.
-
-Pesquisa e desenvolvimento: Laboratórios também desempenham um papel fundamental na pesquisa científica, desenvolvimento de novos medicamentos, estudos clínicos, validação de métodos diagnósticos e investigação de novas tecnologias laboratoriais.
-
-Testes de qualidade de alimentos e água: Alguns laboratórios realizam análises para verificar a segurança e qualidade de alimentos, bebidas e água, incluindo a detecção de contaminantes, como bactérias patogênicas, pesticidas ou metais pesados.
-
-Banco de sangue: Laboratórios de bancos de sangue são responsáveis pela coleta, testagem e armazenamento de sangue e seus componentes para uso em transfusões e tratamentos médicos.</h4>
-          </div>
-          <div className="filterServs1"><p>Clínicas</p> 
-            <h4 className="PsFilter">Uma clínica de saúde é uma empresa voltada a prestação de serviços e atividades relacionadas a saúde, que podem ser: odontologia, medicina, fisioterapia, nutrição, psicologia, fonoaudiologia, exames etc, ou uma integração entre elas.</h4>
-          </div>
-
-            <div className="filterServs2">
-              <p>Agora que você sabe pra que servem os principais serviços de saúde, desfrute do nosso sistema de filtragem</p>
-            </div>
-
-
+      <div className="globalFilter">
     <div className="filterMain">
       
         {/* <div className="functionFilter">
@@ -180,7 +140,10 @@ Banco de sangue: Laboratórios de bancos de sangue são responsáveis pela colet
             </div>
             </div>
         </div>
+        
           
-      </div></div>
+      </div>
+            <Descript/>
+      </div>
   );
 }

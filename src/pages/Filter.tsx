@@ -4,6 +4,7 @@ import { Footer } from "../components/Footer";
 import { NavBar } from "../components/NavBar";
 import { NavNews } from "../components/NavNews";
 
+
 export function Filter(){
   return(
     <>

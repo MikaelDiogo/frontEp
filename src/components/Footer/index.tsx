@@ -6,7 +6,7 @@ import './styles.css'
 
 export function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer' >
       <div className='groupContent'>
         <div className='imgFooter'>
           <img src={LogoEscolaVertical} alt="Logo EEEP vertical" />

@@ -7,7 +7,6 @@ import { useNews } from "../hooks/useNews";
 import { FilterHeader } from "../components/FilterHeader";
 import { NavNews } from "../components/NavNews";
 import { SecondNav } from "../components/SecondNav";
-import "../pages/styles.css"
 
 export function News() {
   const { newsId } = useParams();

@@ -1,0 +1,35 @@
+.descriptGlobal{
+    display: flex;
+    margin-top: 5rem;
+    width: 100vw;
+    height: 23.125rem;
+    background-color: #008442;
+    
+
+}
+.descriptGlobal h2{
+    display: flex;
+    padding-left:7rem;
+    color: #fff;
+    
+}
+.servicesCont{
+    display: flex;
+    align-self: center;
+    width: max-content;
+    gap: 2rem;
+   
+    
+    
+}
+.servicesCont div{
+    display: flex;
+    
+    background-color: #ff7524;
+    justify-content: center;
+    width: 9rem;
+    height: 9rem;
+    border-radius:90px;
+    
+    
+}

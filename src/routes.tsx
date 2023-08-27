@@ -3,10 +3,8 @@ import { Home } from "./pages/Home";
 import { Filter } from "./pages/Filter";
 import { News } from "./pages/News";
 import { NewsArea } from "./components/NewsArea";
-import { Approved } from "./components/Approveds";
-
-
-
+/* import { Approved } from "./components/Approveds";
+ */
 export const router = createBrowserRouter([
   {
     path: "/",
