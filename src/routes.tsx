@@ -3,6 +3,7 @@ import { Home } from "./pages/Home";
 import { Filter } from "./pages/Filter";
 import { News } from "./pages/News";
 import { NewsArea } from "./components/NewsArea";
+import { Description } from "./pages/Description";
 /* import { Approved } from "./components/Approveds";
  */
 export const router = createBrowserRouter([
@@ -25,5 +26,9 @@ export const router = createBrowserRouter([
     element: <News />,
   },
 
+  {
+    path: "/descricao",
+    element: <Description/>
+  },
   
 ]);

@@ -11,7 +11,7 @@ export function StayIn (){
             <div className='space'>
             <h2 className='Stay2'>Saiba Mais</h2>
                 <div className='btnLinks'><Link className='btnLink' to={'./filter'}>Filtragem</Link></div>
-                <div className='btnLinks'><Link className='btnLink' to={'./filter'}>Redes de Saúde</Link></div>
+                <div className='btnLinks'><Link className='btnLink' to={'./descricao'}>Redes de Saúde</Link></div>
                
             </div>
            
